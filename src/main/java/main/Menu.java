@@ -8,6 +8,7 @@ public class Menu
     int opcion = 0;
     
     Nivel1 nivel1 = new Nivel1();
+    Nivel2 nivel2 = new Nivel2();
     
     public void menu()
     {
@@ -35,6 +36,22 @@ public class Menu
                     
                 case 4:
                     nivel1.Numero4();
+                    break;
+                    
+                case 5:
+                    nivel2.Numero5();
+                    break;
+                    
+                case 6:
+                    nivel2.Numero6();
+                    break;
+                    
+                case 7:
+                    nivel2.Numero7();
+                    break;
+                    
+                case 8:
+                    nivel2.Numero8();
                     break;
                     
                   
