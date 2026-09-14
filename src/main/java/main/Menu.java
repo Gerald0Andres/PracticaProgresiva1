@@ -17,7 +17,8 @@ public class Menu
         
         do
         {
-            opcion = Integer.parseInt(JOptionPane.showInputDialog("Indique el ejercicio a evaluar"));
+            opcion = Integer.parseInt(JOptionPane.showInputDialog("Indique el ejercicio a evaluar\n"
+            +"Los ejercicios van del 1 al 12"));
             
             switch(opcion)
             {
@@ -70,6 +71,10 @@ public class Menu
                 case 12:
                     nivel3.Numero12();
                     break;
+                    
+                default:
+                    JOptionPane.showMessageDialog(null, "seleccione una opcion valida");
+                        
                     
                   
                 
