@@ -9,6 +9,7 @@ public class Menu
     
     Nivel1 nivel1 = new Nivel1();
     Nivel2 nivel2 = new Nivel2();
+    Nivel3 nivel3 = new Nivel3();
     
     public void menu()
     {
@@ -52,6 +53,22 @@ public class Menu
                     
                 case 8:
                     nivel2.Numero8();
+                    break;
+                    
+                case 9:
+                    nivel3.Numero9();
+                    break;
+                    
+                case 10:
+                    nivel3.Numero10();
+                    break;
+                    
+                case 11:
+                    nivel3.Numero11();
+                    break;
+                    
+                case 12:
+                    nivel3.Numero12();
                     break;
                     
                   

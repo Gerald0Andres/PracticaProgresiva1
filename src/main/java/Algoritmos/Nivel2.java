@@ -81,7 +81,7 @@ public class Nivel2
         
         for(int i = 0; i < numeros.length; i++)
         {
-            numeros[i] = Integer.parseInt(JOptionPane.showInputDialog("Indique el numero de la posicion "+i));
+            numeros[i] = Integer.parseInt(JOptionPane.showInputDialog("Indique el numero de la posicion "+i));//el primer numero nunca cuenta porque 0 no es ni par ni impar
             
         }
         
